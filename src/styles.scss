@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+/* Base variables */
+:root {
+  --primary-color: #6366f1; /* Indigo 500 */
+  --secondary-color: #8b5cf6; /* Violet 500 */
+  --bg-color: #0f172a; /* Slate 900 */
+  --surface-color: #1e293b; /* Slate 800 */
+  --text-primary: #f8fafc; /* Slate 50 */
+  --text-secondary: #94a3b8; /* Slate 400 */
+  
+  --danger: #ef4444; /* Red 500 */
+  --success: #22c55e; /* Green 500 */
+  --warning: #f59e0b; /* Amber 500 */
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Roboto", "Helvetica Neue", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
